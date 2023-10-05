@@ -1,0 +1,47 @@
+.modal {
+  position: absolute;
+  right: 20px;
+  top: 270px;
+  background-color: var(--white);
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.item:nth-child(1) {
+  display: none;
+}
+
+.listItem {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 12px 20px;
+  color: var(--gray-99);
+}
+
+.listItem:hover {
+  color: var(--orange);
+}
+
+.listItem:hover svg {
+  fill: var(--orange);
+}
+
+.modal li:nth-of-type(1),
+.modal li:nth-of-type(2),
+.modal li:nth-of-type(4) {
+  display: none;
+}
+
+.listItemSeparator {
+  border-bottom: 1px solid var(--grey-ec);
+}
+
+@media all and (min-width: 1024px) {
+  .modal li:nth-of-type(1),
+  .modal li:nth-of-type(2),
+  .modal li:nth-of-type(4) {
+    display: flex;
+  }
+}

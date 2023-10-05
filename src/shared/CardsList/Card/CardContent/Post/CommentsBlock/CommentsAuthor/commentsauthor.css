@@ -1,0 +1,15 @@
+.commentsBlockContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.commentDateOffset {
+  margin-right: 4px;
+}

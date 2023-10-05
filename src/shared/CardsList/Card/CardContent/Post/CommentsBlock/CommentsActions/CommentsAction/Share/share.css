@@ -1,0 +1,9 @@
+.commentsAction {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.commentsAction:last-of-type {
+  margin-right: 0;
+}

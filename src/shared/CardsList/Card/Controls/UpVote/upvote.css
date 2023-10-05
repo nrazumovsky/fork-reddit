@@ -1,0 +1,21 @@
+.karmaCounter {
+  display: flex;
+  align-items: center;
+}
+
+@media all and (min-width: 1024px) {
+  .karmaCounter {
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .up:hover {
+    fill: var(--green);
+  }
+
+  .down:hover {
+    fill: var(--orange);
+  }
+}

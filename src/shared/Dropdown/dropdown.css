@@ -1,0 +1,18 @@
+.dropdownButton {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  padding: 0;
+}
+
+@media all and (min-width: 1024px) {
+  .dropdownButton {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    align-self: center;
+    top: 0;
+    right: 0;
+    order: 3;
+  }
+}

@@ -1,0 +1,14 @@
+.createdAt {
+  color: var(--gray-99);
+}
+
+.publishedLabel {
+  display: none;
+}
+
+@media all and (min-width: 1024px) {
+  .publishedLabel {
+    display: inline;
+    margin-right: 4px;
+  }
+}

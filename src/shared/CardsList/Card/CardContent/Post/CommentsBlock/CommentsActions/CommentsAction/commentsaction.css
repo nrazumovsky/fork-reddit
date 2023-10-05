@@ -1,0 +1,9 @@
+.commentAction {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+}
+
+.commentAction:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,10 @@
+.post {
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .cardsList {
+    padding: 40px 0;
+  }
+}

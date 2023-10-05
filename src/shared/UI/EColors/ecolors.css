@@ -1,0 +1,39 @@
+.black {
+  fill: var(--black);
+}
+
+.orange {
+  fill: var(--orange);
+}
+
+.green {
+  fill: var(--green);
+}
+
+.white {
+  fill: var(--white);
+}
+
+.grayF4 {
+  fill: var(--grayF4);
+}
+
+.grayF3 {
+  fill: var(--grayF3);
+}
+
+.grayD9 {
+  fill: var(--grayD9);
+}
+
+.grayC4 {
+  fill: var(--grayC4);
+}
+
+.gray99 {
+  fill: var(--gray99);
+}
+
+.gray66 {
+  fill: var(--gray66);
+}
